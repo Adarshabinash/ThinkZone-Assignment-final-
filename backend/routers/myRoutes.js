@@ -66,9 +66,4 @@ router.delete("/:id", async (req, res) => {
   }
 });
 
-router.get("/test", (req, res) => {
-  console.log("Test");
-  res.send("test");
-});
-
 module.exports = router;
