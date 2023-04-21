@@ -1,10 +1,15 @@
 # ThinkZone-Assignment-final-
 
-# Front-end part-
+# Frontend:
+Here I have created a students' registration form with input fields like name(text), gender(radio) and class(dropdown).
 
-Here, I have made a simple react form using the required tags.
+For this registration and validation process I have used react-hook-form and yup validator.
 
-For the validation process, I have used react-hook-form and yup validator.
-Both react-hook-form and yup validator makes it easy to create a form and help in validating it.
-In yup, we have to create a schema for our input field and have to use yup-resolver to be able to integrate this schema to our form.
+The react-hook-form gives us register and handleSubmit method for ease of making forms in react whereas yup allows us to define a schema which will ensure that the correct response is sent.
+
+To integrate the schema with the form, we have to use yupResolver(since we have used a yup validator) and can use the validator with our registration form.
+
+
+# Backend:
+Here I have created a database which will store the information sent through the registration form.
 
