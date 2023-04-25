@@ -5,8 +5,8 @@ import StudentList from "./Assignment/studentList";
 function App() {
   return (
     <div className="App">
-      <StudentForm/> 
-//       <StudentList />
+//       <StudentForm/> 
+      <StudentList />
     </div>
   );
 }
